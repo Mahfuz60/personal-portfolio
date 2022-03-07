@@ -1,0 +1,14 @@
+.project-details {
+
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .project-details:hover {
+    transform: scale(1.1);
+  }
+  .project-details > img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
