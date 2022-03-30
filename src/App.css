@@ -129,7 +129,8 @@ li{
 .header-img{
   padding: 0 30px;
   margin-top: 50px;
-  margin-left: 100px;
+  
+  width: 90%;
 }
 
 .button a{

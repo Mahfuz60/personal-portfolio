@@ -5,9 +5,9 @@ import {FaGithub,FaLinkedin,FaTwitter,FaEnvelope} from "react-icons/fa";
 
 const Skill = () => {
     return (
-       <scetion className='container '>
+       <section className='container '>
             <div className='row '>
-            <div style={{marginLeft:'50px'}} className='col-lg-6 col-md-8 col-sm-12 pt-3'>
+            <div style={{marginLeft:'15px'}} className='col-lg-6 col-md-8 col-sm-10 pt-3'>
             <div className='mx-5 '>
             <h1 style={{color:'white',fontWeight:'700'}}>My Skill</h1>
             <div className="skill pt-3">
@@ -54,12 +54,12 @@ const Skill = () => {
             </div>
 
             <div className='col-lg-5 col-sm-12 mt-5 '> 
-               <div  className='mt-5 mx-4 my-3'>
-                  <div style={{backgroundColor:'silver',padding:'85px'}}>
+               <div  className='mt-5 py-5 my-3'>
+                  <div style={{backgroundColor:'silver',padding:'20px',marginLeft:'20px',width:'auto',fontSize:'12px'}}>
                   <h1 style={{color:'black',fontWeight:'700'}}>Contact Me</h1>
                   <h3>Name:Mahfuz Alam</h3>
                   <p>Phone:+8801521246898</p>
-                  <p>Email:mahfuzuralam1996@gmail.com</p>
+                  <p>mahfuzuralam1996@gmail.com</p>
                   <ul className='header-ul '>
                         
                     
@@ -95,7 +95,7 @@ const Skill = () => {
             </div>
 
         </div>
-       </scetion>
+       </section>
     );
 };
 

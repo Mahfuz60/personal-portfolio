@@ -57,7 +57,7 @@ const HeaderMain = () => {
         </div>
         <div className="col-lg-6 col-sm-12">
           <div className="header-img">
-            <img src={pic1} alt="" />
+            <img src={pic1} alt=""  />
           </div>
         </div>
       </div>

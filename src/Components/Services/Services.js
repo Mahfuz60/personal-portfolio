@@ -49,7 +49,7 @@ const Services = () => {
     
     return (
         <section className='container pt-3 mt-5'>
-            <div className='text-center'>
+            <div className='text-center textAlign-center'>
             <h4 style={{color:'#1CC7C1',fontSize:'30px',fontWeight:'700'}}>My SERVICES</h4>
             <p style={{color:'white',marginTop:'15px',fontSize:'20px',textAlign:'center'}}>Our web development company does its best to figure out the current needs and preferences of people to satisfy them on their online products and solutions. Any self-respecting web development company will always seek surprising, new ways to show off their services to potential clients and make them desire collaborations.</p>
         </div>

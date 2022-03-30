@@ -7,10 +7,10 @@ import resume from "../../images/mahfuz-resume.pdf"
 const About = () => {
   return (
     <section  className="container pt-5 ">
-      <div className="row">
-        <div className="col-lg-6 col-sm-12 mt-3">
+      <div className="row ">
+        <div className="col-lg-5 col-sm-12 mt-3">
           <div className="about-img">
-            <img src={pic5} alt="" />
+            <img src={pic5} alt=""style={{width:'350px',height:'350px'}}/>
             <button className='button btn-outline mt-3 mx-5'>
                         <a target='_blank' rel='noreferrer' href={resume}>Download CV</a>
                             
@@ -18,9 +18,9 @@ const About = () => {
           </div>
          
         </div>
-        <div className="col-lg-6 col-sm-12  mt-5 my-5">
+        <div className="col-lg-7 col-sm-12  mt-5 my-5 ">
          
-          <div className="about-details">
+          <div className="about-details mx-2">
             <h1 style={{textAlign: 'center'}}>About Me</h1>
             <h1 style={{textAlign: 'center'}}>
               I'm <span style={{ color: "tomato", }}>Mahfuz Alam</span>

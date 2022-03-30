@@ -14,7 +14,7 @@ const Contact = () => {
           )
           .then(
             (result) => {
-            //   alert("Email Submitted successfully! 👍");
+               alert("Email Submitted successfully! 👍");
               console.log(result.text);
             },
             (error) => {
@@ -53,7 +53,7 @@ const Contact = () => {
           <Form.Control as="textarea" name='message' rows={4} />
         </Form.Group>
         <input  type="submit" value="Send" className="px-3 bg-danger fw-bold mt-2 p-2 text-black" />
-        <p >Receiving By <span style={{color:'black',fontWeight:'600',fontSize:'15px'}}>mahfuzuralam1996@gmail.com</span></p>
+        <p >Receiving By <span style={{color:'black',fontWeight:'600',fontSize:'10px',textAlign:'center',justifyContent:'center',justifyItems:'center'}}>mahfuzuralam1996@gmail.com</span></p>
       </Form>
 
     
