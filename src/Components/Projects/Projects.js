@@ -22,7 +22,7 @@ const projectData = [
   },
   {
     img: `${HealthCare}`,
-    cols: 1,
+    cols: 2,
     text: 'A single page Health Care Center Website,Patients place their Booking Appointment, users must be logged in by their google account .This web app has an admin page where the admin can add a new service, update the current status, delete a service, and make a new admin.',
     title: 'Health Care Center',
     live: 'https://health-care-center-9ee24.web.app/',
