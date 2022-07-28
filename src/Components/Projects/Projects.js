@@ -16,7 +16,7 @@ const projectData = [
     img: `${Travel}`,
     cols: 1,
     text: 'A single page Tour Booking Website,User booking their hotel room and places, users must be logged in by their gmail account .This web app has an admin page where the admin can add a new service, update the current status, delete a service, and make a new admin.',
-    title: 'TravelBD App',
+    title: 'Tour Booking App',
     live: 'https://travelbd-app.web.app/',
     code: 'https://github.com/Mahfuz60/tour-booking-app',
   },
